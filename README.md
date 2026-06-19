@@ -16,6 +16,10 @@ Monitoratge de temperatura i humetat a les aules mitjançant un sensor DHT11 i u
 | GND          | Pin físic 6 (GND)    |
 | DATA         | Pin físic 7 (GPIO 4) |
 
+![dht11 pinout](dht11_pinout.png)
+
+![raspberry pinout](raspberry_pinout.png)
+
 ## 1.3. Instal·lació i posada en marxa
 
 ### 1.3.1. Clonar el repositori
