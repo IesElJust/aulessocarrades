@@ -1,0 +1,4 @@
+@reboot sleep 15 && : > /home/admin/dht11_send.log && /home/admin/dht11_send.py >> /home/admin/dht11_send.log 2>&1
+# La següent línia no funciona, si es passa a script de bash si que funciona, per això s'ha creat el fitxer dht11_iniciar.sh
+#* * * * * pgrep -f "/home/admin/dht11_send.py" > /dev/null || /home/admin/dht11_send.py >> /home/admin/dht11_send.log 2>&1
+* * * * * /home/admin/dht11_iniciar.sh
